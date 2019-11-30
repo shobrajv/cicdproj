@@ -138,3 +138,6 @@ pipeline
 |Tiny Vm -ONLY For MAC/OSX and Windows(MobyLinuxVM)|
 |Hypervisor|
 |Host OS: Win/Mac|
+
+- **docker** is Docker Client in Win
+- **dockerd** is Docker Server in Win
