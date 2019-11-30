@@ -2,9 +2,10 @@ pipeline {
     // agent { docker { image 'python' } }
     // agent any
     agent { label 'SiebelWindows' }
-    environment {
-        PATH = "C:\\WINDOWS\\SYSTEM32"
-        }
+    env.PATH = env.PATH + ";c:\\Windows\\System32"
+    // environment {
+    //     PATH = "C:\\WINDOWS\\SYSTEM32"
+    //     }
     stages {
         stage('build') {
             steps {
