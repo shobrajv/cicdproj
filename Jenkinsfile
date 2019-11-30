@@ -1,10 +1,10 @@
 pipeline {
-    // agent { docker { image 'python:3.5.1' } }
-    agent any
+    agent { docker { image 'python' } }
+    // agent any
     stages {
         stage('build') {
             steps {
-                powershell 'echo "Hello"'
+                bat 'echo "Hello"'
             }
         }
     }
