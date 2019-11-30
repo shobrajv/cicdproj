@@ -169,3 +169,18 @@ pipeline
         - **Docker Compose**: Single Docker Engine
         - **Docker Swarm**: Multiple Docker Engines (Kubernetes)
     - Services allow us to scale containers across multiple docker daemons, which all work together as a swarm with multiple managers and workers
+
+## Example Docker Command:
+
+```
+docker run -i -t ubuntu /bin/bash
+```
+- `-i` > Interactive Mode
+- `-t` > Virtual Terminal
+- `ubuntu` > Image Name
+- `/bin/bash` > Start Point/App
+
+
+# CI Server inside Docker
+- Docker > Jenkins > Jenkins Server > Job
+- And run Job in another container
