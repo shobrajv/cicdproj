@@ -125,22 +125,23 @@ pipeline
 
 # Docker
 
-|Communication|
-|--|
+- **docker** is Docker Client in Win
+- **dockerd** is Docker Server in Win
+
+## Communication:
+||
+|:--:|
 |Docker Client|
 |sends request(cmds)|
 |REST API|
 |Unix Sockets(Comm Prots)|
-| ----------------------------------------- |
-|Docker Engine - Linux Kernel Features|
-| ----------------------------------------- |
+|`Docker Engine - Linux Kernel Features`|
 |Docker Host|
 |Tiny Vm -ONLY For MAC/OSX and Windows(MobyLinuxVM)|
 |Hypervisor|
 |Host OS: Win/Mac|
+||
 
-- **docker** is Docker Client in Win
-- **dockerd** is Docker Server in Win
 
 ## Docker Objects
 - **Docker Image**
@@ -149,12 +150,22 @@ pipeline
     - is Active inside Docker engine, a meta object or Image Object
     - is a collection of instructions needed fro app deployment
         - `Image = { OS + Runtime + Dependencies + Application }`
+    - are Read Only
 - **Docker Container**
-    - An Image Object is used to create a Container
-    - 
+    - an Image Object is used to create a Container
+    - is a runtime representation of image
+    - one can control how isolated a container's network, storage or other underlying subsystems are from other containers or from the host machine
 - **Docker Network**
+    - for connecting containers within a single host or across host
+    - is the object used to define network properties for a container viz: ip, port, host-name ...
 - **Docker Storage**
+    - is an object which represents `VHDD`
+    - used to send container data into real disk
     - **Volumes**
+        - TODO
 - **Docker Services**
-    - **Docker Swarm**
-    - **Docker Compose**
+    - is the object for `Container Work Flow Management`
+    - **Clusters**
+        - **Docker Compose**: Single Docker Engine
+        - **Docker Swarm**: Multiple Docker Engines (Kubernetes)
+    - Services allow us to scale containers across multiple docker daemons, which all work together as a swarm with multiple managers and workers
