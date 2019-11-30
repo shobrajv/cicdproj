@@ -121,3 +121,20 @@ pipeline
 - File systems
 - Networking
 - Namespaces
+
+
+# Docker
+
+|Communication|
+|--|
+|Docker Client|
+|sends request(cmds)|
+|REST API|
+|Unix Sockets(Comm Prots)|
+| ----------------------------------------- |
+|Docker Engine - Linux Kernel Features|
+| ----------------------------------------- |
+|Docker Host|
+|Tiny Vm -ONLY For MAC/OSX and Windows(MobyLinuxVM)|
+|Hypervisor|
+|Host OS: Win/Mac|
