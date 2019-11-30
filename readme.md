@@ -181,6 +181,30 @@ docker run -i -t ubuntu /bin/bash
 - `/bin/bash` > Start Point/App
 
 
-# CI Server inside Docker
+## CI Server inside Docker
 - Docker > Jenkins > Jenkins Server > Job
 - And run Job in another container
+
+
+# Docker File
+
+- Keywords:
+    ```
+    CMD
+    ENTRY POINT
+    ADD
+    COPY
+    VOLUME
+    WORKDIR
+    USER ONBUILD
+    LABEL
+    STOPSIGNAL
+    ARG
+    SHELL
+    HEALTHCHECK
+    ENV
+    .
+    .
+    .
+    ```
+
