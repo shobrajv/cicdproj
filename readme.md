@@ -143,11 +143,18 @@ pipeline
 - **dockerd** is Docker Server in Win
 
 ## Docker Objects
-- Docker Image
-- Docker Container
-- Docker Network
-- Docker Storage
-    - Volumes
-- Docker Services
-    - Docker Swarm
-    - Docker Compose
+- **Docker Image**
+    - is the Layout of VM: Container
+    - is Passive outside Docker engine
+    - is Active inside Docker engine, a meta object or Image Object
+    - is a collection of instructions needed fro app deployment
+        - `Image = { OS + Runtime + Dependencies + Application }`
+- **Docker Container**
+    - An Image Object is used to create a Container
+    - 
+- **Docker Network**
+- **Docker Storage**
+    - **Volumes**
+- **Docker Services**
+    - **Docker Swarm**
+    - **Docker Compose**
