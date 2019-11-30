@@ -1,26 +1,27 @@
 # BDD
-- Behaviour Driven Development
+- **Behaviour Driven Development**
 - Collecting requirement and translating it and converting it into readable automation script which drives the development
 - Way for software teams to work that closes the gap between business and tech people by:
 - Encouraging collaboration across roles to build "shared understanding of the problem" to be solved
 Working in rapid, small iterations to increase feedback and flow of value
 producing system documentation that is automatically checked against the system's behaviour
 
-- Workflow
-    - User Stories
-    - Rules
-    - Example Mapping
-    - Write a test case
-    - Run Test case until all conditions are met
-    - Prepare document
-    - Freeze it
-    - Start Development
-    - Test
-    - Deploy
-    - Iterate for new requirements
+## Workflow:
+- User Stories
+- Rules
+- Example Mapping
+- Write a test case
+- Run Test case until all conditions are met
+- Prepare document
+- Freeze it
+- Start Development
+- Test
+- Deploy
+- Iterate for new requirements
 
-| Steps |
-|--|
+## Steps:
+||
+|:--:|
 | Write Test |
 | Run Tests |
 | Generate Report |
@@ -28,7 +29,7 @@ producing system documentation that is automatically checked against the system'
 | Accept |
 | Review |
 | Feedback |
-
+||
 
 
 # Jenkins:
@@ -63,8 +64,7 @@ producing system documentation that is automatically checked against the system'
 - Declarative
 
 
-
-## JEnkins Project Tasks
+## Jenkins Project Tasks
 - Freestyle Project:
     - For any Language
 - Pipeline:
