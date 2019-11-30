@@ -141,3 +141,13 @@ pipeline
 
 - **docker** is Docker Client in Win
 - **dockerd** is Docker Server in Win
+
+## Docker Objects
+- Docker Image
+- Docker Container
+- Docker Network
+- Docker Storage
+    - Volumes
+- Docker Services
+    - Docker Swarm
+    - Docker Compose
